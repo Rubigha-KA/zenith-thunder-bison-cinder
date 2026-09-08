@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Setu",
+      "hasCanvas": false,
+      "bodyTextLen": 900,
+      "bodyTextHash": "329bc8f380ee9a3360a41de9837f4c687f9fbba2f9b7f92dd4471e1b89a7d24f",
+      "bodyTextPrefix": "Setu ABDM follow-up layer Prototype on ABDM / ABHA PORTABLE FOLL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Setu",
+      "hasCanvas": false,
+      "bodyTextLen": 875,
+      "bodyTextHash": "5fd12e85a3c66217788e4490405972ead27a379cbea4cef80e6a0499f289430a",
+      "bodyTextPrefix": "Setu ABDM follow-up layer PORTABLE FOLLOW-UP LAYER AI listens be",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

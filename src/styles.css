@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f3efe6;
+  --color-surface: #faf8f3;
+  --color-surface-2: #ebe6da;
+  --color-ink: #1c1d1a;
+  --color-fg: #1c1d1a;
+  --color-muted: #5e625a;
+  --color-subtle: #8a8e84;
+  --color-primary: #245e57;
+  --color-primary-fg: #f4f7f5;
+  --color-primary-soft: #d7e6e2;
+  --color-border: #d8d1c3;
+  --color-border-strong: #c4bbab;
+  --color-ok: #2c6a4e;
+  --color-ok-soft: #dceadf;
+  --color-review: #8f5c24;
+  --color-review-soft: #f3e4cf;
+  --color-alert: #9b3a2e;
+  --color-alert-soft: #f4d9d4;
+  --color-info: #2d4a66;
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
